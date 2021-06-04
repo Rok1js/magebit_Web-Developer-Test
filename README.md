@@ -1,6 +1,6 @@
 # How to run a project locally
 To run the project locally you need to install XAMPP - a web server solution stack package and make a database to store data.
-Files need to be put into "\xampp2\htdocs" folder.
+Files need to be put into "\xampp\htdocs" folder.
 
 # Database
 Database parametrs
