@@ -1,0 +1,30 @@
+
+#back{
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: black;
+    margin: 10px;
+}
+#page{
+  display: flex;
+  margin: 20px 0px 0px 20px;
+}
+#data{
+  display: inline-block;
+}
+#filter{
+  display: inline-block;
+  margin-left: 20px;
+}
+#filter form{
+  margin: 0px 0px 10px 0px;
+}
+#searchform{
+ margin: 20px 0px 20px 20px;
+}
+#sort{
+  background: black;
+  color: white;
+  cursor: pointer;
+}

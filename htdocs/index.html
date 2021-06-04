@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- importing CSS files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/810348a480.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- declaring div as full-page div -->
+    <div id="page">
+        <!-- declaring div as UI div -->
+      <div id="ui">
+        <!-- NAV bar -->
+        <div class="links">
+
+          <img src="img/logo.svg" alt="">
+          <h4>pineapple.</h4>
+          <a href="#">About</a>
+          <a href="#">How it works</a>
+          <a href="#">Contact</a>
+
+        </div>
+        <!-- declaring div as UI div -->
+        <div id="info">
+          <!-- Subscription text div -->
+          <div id="subscription">
+
+            <h3>Subscribe to newsletter</h3>
+            <h5>Subscribe to our newsletter and get 10% discount on pineapple glasses.</h5>
+
+          </div>
+          <!-- Form div -->
+          <div id="newsletter-form">
+
+            <form id="form" method="post">
+              <input type="email" id="email" name="email" placeholder="Type your email address here..." onkeyup="validation()" onfocus="emptyEmail()" onblur="inputLeft()">
+              <button type="submit" class="" id="icon-button" name="submit" disabled><i id="arrow" class="bi bi-arrow-right"></i></button>
+            </form>
+
+            <span id="valid-email" class="error"></span><br id="br">
+            <span id="valid-checkbox" class="error"></span>
+
+          </div>
+          <!-- Terms div -->
+          <div id="terms">
+
+            <div class="terms-checkbox">
+              <label class="control">
+                <input type="checkbox" id="checkbox" name="checkbox" onclick="emptyCheckbox();">
+                <span class="indicator"></span>
+              </label>
+            </div>
+
+            <div class="terms-info">
+              <h5>I agree to <a href="#">terms of service</a></h5>
+            </div>
+
+          </div>
+          <!-- grey line -->
+          <hr class="line">
+          <!-- Social icon div -->
+          <div class="socials">
+
+            <a href="#">
+              <div class="facebook">
+                <i class="fa fa-facebook"></i>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="instagram">
+                <i class="fa fa-instagram"></i>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="twitter">
+                <i class="fa fa-twitter"></i>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="youtube">
+                <i class="fab fa-youtube"></i>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <!-- declaring div as Image div -->
+      <div id="image">
+        <img id="img" alt="">
+      </div>
+    </div>
+  </body>
+<!-- Importing JavaScript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</html>
